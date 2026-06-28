@@ -19,7 +19,7 @@
              revision="lineage-21-M325FV" />
 
     <!-- Custom Clang Toolchain -->
-    <project path="toolchain/clang-20250704"
+    <project path="toolchain"
              name="m32-bringup/toolchain"
              remote="github"
              revision="lineage-21-M325FV" clone-depth="1" />
