@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device tree -->
+    <project path="device/samsung/m32"
+             name="m32-bringup/android_device_samsung_m32"
+             remote="github"
+             revision="lineage-21-M325FV" />
+
+    <!-- Vendor tree -->
+    <project path="vendor/samsung/m32"
+             name="m32-bringup/android_vendor_samsung_m32"
+             remote="github"
+             revision="lineage-21-M325FV" />
+
+    <!-- M32 Kernel -->
+    <project path="kernel/samsung/mt6768"
+             name="m32-bringup/android_kernel_samsung_mt6768"
+             remote="github"
+             revision="lineage-21-M325FV" />
+
+    <!-- Custom Clang Toolchain -->
+    <project path="toolchain/clang-20250704"
+             name="m32-bringup/toolchain"
+             remote="github"
+             revision="lineage-21-M325FV" clone-depth="1" />
+
+    <!-- Mediatek SEPolicy vndr -->
+    <project path="device/mediatek/sepolicy_vndr"
+             name="LineageOS/android_device_mediatek_sepolicy_vndr"
+             remote="github"
+             revision="lineage-21" />
+
+    <!-- Mediatek HAL Hardware -->
+    <project path="hardware/mediatek"
+             name="LineageOS/android_hardware_mediatek"
+             remote="github"
+             revision="lineage-21" />
+
+    <!-- Samsung Hardware -->
+    <project path="hardware/samsung"
+             name="LineageOS/android_hardware_samsung"
+             remote="github"
+             revision="lineage-21" />
+</manifest>
